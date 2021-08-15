@@ -1,7 +1,7 @@
 // window.alert('Kirito is coming soon')
 
 // call back
-window.addEventListener('load', function (params) {
+window.addEventListener('load', function () {
     console.log('LOAD')
     const element1 = document.getElementById('title')
     console.log(element1)
