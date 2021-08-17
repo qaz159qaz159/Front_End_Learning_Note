@@ -1,0 +1,32 @@
+{
+  "name": "webpack5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install_webpack": "npm i webpack -D",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "install_css_loader": "npm install --save-dev css-loader",
+    "install_style_loader": "npm install --save-dev style-loader",
+    "install_html-webpack-plugin": "npm install --save-dev html-webpack-plugin",
+    "install_mini-css-extract-plugin": "npm install --save-dev mini-css-extract-plugin",
+    "install_babel-loader": "npm install --save-dev babel-loader @babel/core",
+    "install_babel_preset": "npm install @babel/preset-env --save-dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
